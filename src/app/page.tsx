@@ -64,7 +64,7 @@ export default function Home() {
               width={32}
               height={32}
               priority
-            />
+            />       
         </div>
       </header>
 
