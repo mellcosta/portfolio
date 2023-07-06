@@ -10,5 +10,6 @@
 
 body {
   color: var(--gray-100);
-  background: #000
+  background: #000;
+  font-size: 30px;
 }

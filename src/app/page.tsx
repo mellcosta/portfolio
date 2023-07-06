@@ -1,13 +1,15 @@
 import Image from 'next/image'
 
 import Social from '../components/Social'
+import Sobre from '../components/Sobre'
+import Tecnologias from '../components/Tecnologias'
 
-export default function Home() {
+export default function Page() {
   return (
-    <div className="flex h-screen flex-col items-center justify-between px-20 py-8">
+    <div className="flex h-screen flex-col items-center justify-between px-10 py-8 gap-[100px]">
 
       <header className='flex flex-col intems-center justify-start gap-[100px] px-10' >
-        <div className='flex items-center justify-center gap-[25%]'>
+        <div className='flex items-center justify-between'>
           <a href="#" className='cursor-pointer'>
             <Image
               src="/mel.png"
@@ -25,11 +27,11 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='flex gap-10'>
+        <div className='flex gap-5'>
           <div>
             <h1 className='text-[100px] font-bold'>Melissa Costa</h1>
             <div>
-              <h2 className='text-[50px]'>Frontend Developer</h2>
+              <h2 className='text-[50px] font-normal'>Frontend Developer</h2>
               <Image
                 src="/line.png"
                 alt="Line"
@@ -50,8 +52,9 @@ export default function Home() {
         <Social />
       </header>
 
-      <main className="flex">
-        
+      <main className="flex flex-col items-center justify-center gap-[100px]">
+        <Sobre />
+        <Tecnologias/>
       </main>
     </div>
   )
