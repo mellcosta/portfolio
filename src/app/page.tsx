@@ -6,18 +6,20 @@ export default function Home() {
 
       <header className='flex flex-col intems-center justify-start gap-[100px] px-10' >
         <div className='flex items-center justify-center gap-[25%]'>
-          <Image
-            src="/mel.png"
-            alt="Mel Logo"
-            width={200}
-            height={68}
-            priority
-          />
+          <a href="#" className='cursor-pointer'>
+            <Image
+              src="/mel.png"
+              alt="Mel Logo"
+              width={200}
+              height={68}
+              priority
+            />
+          </a>
           <div className="flex justify-center items-center gap-[30px]">
-            <div className="font-normal text-[30px]">Sobre</div>
-            <div className="font-normal text-[30px]">Tecnologias</div>
-            <div className="font-normal text-[30px]">Projectos</div>
-            <div className="font-normal text-[30px]">Contacto</div>
+            <a className="font-normal text-[30px] cursor-pointer">Sobre</a>
+            <a className="font-normal text-[30px] cursor-pointer">Tecnologias</a>
+            <a className="font-normal text-[30px] cursor-pointer">Projectos</a>
+            <a className="font-normal text-[30px] cursor-pointer">Contacto</a>
           </div>
         </div>
 
@@ -27,44 +29,50 @@ export default function Home() {
             <div>
               <h2 className='text-[50px]'>Frontend Developer</h2>
               <Image
-                  src="/line.png"
-                  alt="Mel Logo"
-                  width={200}
-                  height={68}
-                  priority
+                src="/line.png"
+                alt="Line"
+                width={200}
+                height={68}
+                priority
                 />
-              </div>
             </div>
-        <Image
-              src="/pc.png"
-              alt="Mel Logo"
-              width={400}
-              height={350}
-              priority
+          </div>
+          <Image
+            src="/pc.png"
+            alt="Computer"
+            width={400}
+            height={350}
+            priority
             />
         </div>
         <div className="flex items-start justify-start gap-9">
-        <Image
+          <a href="https://github.com/mellcosta" target="_blank" rel="noopener noreferrer">
+            <Image
               src="/github.png"
-              alt="Mel Logo"
+              alt="Github"
               width={32}
               height={32}
               priority
             />
-        <Image
+          </a>
+          <a href="https://www.linkedin.com/in/melissa-costa-71300a209/" target="_blank" rel="noopener noreferrer">
+            <Image
               src="/linkedin.png"
-              alt="Mel Logo"
+              alt="Linkedin"
               width={32}
               height={32}
               priority
             />
-        <Image
+          </a>
+          <a href="https://www.instagram.com/m3licosta/" target="_blank" rel="noopener noreferrer">
+            <Image
               src="/instagram.png"
-              alt="Mel Logo"
+              alt="Instagram"
               width={32}
               height={32}
               priority
-            />       
+            />
+          </a>       
         </div>
       </header>
 
