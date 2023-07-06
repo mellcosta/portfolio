@@ -1,9 +1,76 @@
+import Image from "next/image"
+
 import Title from "./Title"
 
 export default function Tecnologias() {
     return(
-        <div>
+        <div className="flex flex-col items-center justify-start gap-[50px]">
             <Title titulo="Tecnologias"/>
+            <div className="flex items-center justify-center gap-[100px] flex-wrap w-[820px]">
+                <a href="" className="flex flex-col items-center justify-center gap-3">
+                    <Image
+                        src="/html.png"
+                        alt="HTML"
+                        width={130}
+                        height={130}
+                    />
+                    <span>HTML</span>
+                </a>
+                <a href="" className="flex flex-col items-center justify-center gap-3">
+                    <Image
+                        src="/css.png"
+                        alt="CSS"
+                        width={130}
+                        height={130}
+                    />
+                    <span>CSS</span>
+                </a>
+                <a href="" className="flex flex-col items-center justify-center gap-3">
+                    <Image
+                        src="/react.png"
+                        alt="React.js"
+                        width={130}
+                        height={130}
+                    />
+                    <span>React.js</span>
+                </a>
+                <a href="" className="flex flex-col items-center justify-center gap-3">
+                    <Image
+                        src="/js.png"
+                        alt="Javascript"
+                        width={130}
+                        height={130}
+                    />
+                    <span>Javascript</span>
+                </a>
+                <a href="" className="flex flex-col items-center justify-center gap-3">
+                    <Image
+                        src="/tailwindCss.png"
+                        alt="Tailwind Css"
+                        width={130}
+                        height={130}
+                    />
+                    <span>Tailwind Css</span>
+                </a>
+                <a href="" className="flex flex-col items-center justify-center gap-3">
+                    <Image
+                        src="/figma.png"
+                        alt="Figma"
+                        width={130}
+                        height={130}
+                    />
+                    <span>Figma</span>
+                </a>
+                <a href="" className="flex flex-col items-center justify-center gap-3">
+                    <Image
+                        src="/git.png"
+                        alt="GIT"
+                        width={130}
+                        height={130}
+                    />
+                    <span>GIT</span>
+                </a>
+            </div>
         </div>
     )
 }
