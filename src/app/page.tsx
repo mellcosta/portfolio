@@ -5,10 +5,12 @@ import About from '../components/About'
 import Techs from '../components/Techs'
 import Projects from '../components/Projects'
 import Contact from '../components/Contact'
+import Footer from '../components/Footer'
+
 
 export default function Page() {
   return (
-    <div className="flex h-screen flex-col items-center justify-between px-10 py-8 gap-[100px]">
+    <div className="flex h-screen flex-col items-center justify-between py-8 gap-[100px]">
 
       <header className='flex flex-col intems-center justify-start gap-[100px] px-10' >
         <div className='flex items-center justify-between'>
@@ -59,6 +61,7 @@ export default function Page() {
         <Techs />
         <Projects />
         <Contact />
+        <Footer />
       </main>
     </div>
   )
