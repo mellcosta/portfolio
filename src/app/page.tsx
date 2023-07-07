@@ -1,8 +1,9 @@
 import Image from 'next/image'
 
 import Social from '../components/Social'
-import Sobre from '../components/Sobre'
-import Tecnologias from '../components/Tecnologias'
+import About from '../components/About'
+import Techs from '../components/Techs'
+import Projects from '../components/Projects'
 
 export default function Page() {
   return (
@@ -12,7 +13,7 @@ export default function Page() {
         <div className='flex items-center justify-between'>
           <a href="#" className='cursor-pointer'>
             <Image
-              src="/mel.png"
+              src="/mel.svg"
               alt="Mel Logo"
               width={200}
               height={68}
@@ -53,8 +54,10 @@ export default function Page() {
       </header>
 
       <main className="flex flex-col items-center justify-center gap-[100px]">
-        <Sobre />
-        <Tecnologias/>
+        <About />
+        <Techs />
+        <Projects />
+
       </main>
     </div>
   )

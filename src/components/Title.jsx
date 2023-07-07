@@ -3,7 +3,7 @@ import Image from "next/image";
 const Title = (props) => {
     return (
         <div className="flex flex-col items-center justify-center gap-0">
-            <h2 className="text-[60px] font-semibold">{props.titulo}</h2>
+            <h2 className="text-[60px] font-semibold">{props.title}</h2>
             <Image
                 src="/line.png"
                 alt="Line"

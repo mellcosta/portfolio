@@ -2,10 +2,10 @@ import Image from "next/image"
 
 import Title from "./Title"
 
-export default function Tecnologias() {
+export default function Techs() {
     return(
         <div className="flex flex-col items-center justify-start gap-[50px]">
-            <Title titulo="Tecnologias"/>
+            <Title title="Tecnologias"/>
             <div className="flex items-center justify-center gap-[100px] flex-wrap w-[820px]">
                 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" className="flex flex-col items-center justify-center gap-3">
                     <Image

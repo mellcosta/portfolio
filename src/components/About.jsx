@@ -3,13 +3,13 @@ import Image from "next/image";
 import Title from "./Title"
 
 
-export default function Sobre() {
+export default function About() {
     return (
         <div className="flex flex-col items-center justify-start gap-[50px]">
-            <Title titulo="Sobre Mim"/>
-            <div className="flex items-center justify-center gap-[50px]">
+            <Title title="Sobre Mim"/>
+            <div className="flex items-center justify-center gap-[50px] px-[50px]">
                 <Image
-                    src="/pic.png"
+                    src="/pic.svg"
                     alt="Profile pic"
                     width={470}
                     height={470}
