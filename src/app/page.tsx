@@ -4,6 +4,7 @@ import Social from '../components/Social'
 import About from '../components/About'
 import Techs from '../components/Techs'
 import Projects from '../components/Projects'
+import Contact from '../components/Contact'
 
 export default function Page() {
   return (
@@ -57,7 +58,7 @@ export default function Page() {
         <About />
         <Techs />
         <Projects />
-
+        <Contact />
       </main>
     </div>
   )
