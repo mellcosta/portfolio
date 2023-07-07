@@ -37,7 +37,7 @@ export default function Page() {
             <div>
               <h2 className='text-[50px] font-normal'>Frontend Developer</h2>
               <Image
-                src="/line.png"
+                src="/line.svg"
                 alt="Line"
                 width={200}
                 height={68}
