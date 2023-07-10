@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import Title from "./Title"
 
@@ -6,7 +7,9 @@ import Title from "./Title"
 export default function About() {
     return (
         <div className="flex flex-col items-center justify-start gap-[50px]">
-            <Title title="Sobre Mim"/>
+            <Link href="#" id="about">
+                <Title title="Sobre Mim"/>
+            </Link>
             <div className="flex items-center justify-center gap-[50px] px-[50px]">
                 <Image
                     src="/pic.svg"

@@ -10,7 +10,7 @@ const Cards = (props) => {
                         alt="Image"
                         width={500}
                         height={300}
-                        className="rounded-tl-2xl rounded-tr-2xl h-[300px] max-h-[310px]"
+                        className="rounded-tl-2xl rounded-tr-2xl h-[280px] max-h-[310px]"
                     />
                 </a>
                 <Image

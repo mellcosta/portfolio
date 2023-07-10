@@ -24,7 +24,7 @@ export default function Footer() {
                     height={30}
                     priority
                     />
-                <span>+244 934 661 671</span>
+                <a href="tel:+244 934 661 671">+244 934 661 671</a>
             </div> 
             <div className="flex">
                 <Image
@@ -34,7 +34,7 @@ export default function Footer() {
                     height={30}
                     priority
                     />
-                <span>mcosta.msl@gmail.com</span>
+                <a href="mailto:m3licosta@gmail.com">m3licosta@gmail.com</a>
             </div> 
           </div>
         </div>

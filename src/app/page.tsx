@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 import Social from '../components/Social'
 import About from '../components/About'
@@ -24,10 +25,10 @@ export default function Page() {
             />
           </a>
           <div className="flex justify-center items-center gap-[30px]">
-            <a className="font-normal text-[30px] cursor-pointer">Sobre</a>
-            <a className="font-normal text-[30px] cursor-pointer">Tecnologias</a>
-            <a className="font-normal text-[30px] cursor-pointer">Projectos</a>
-            <a className="font-normal text-[30px] cursor-pointer">Contacto</a>
+            <Link href='#about'className="font-normal text-[30px] cursor-pointer">Sobre</Link>
+            <Link href='#techs' className="font-normal text-[30px] cursor-pointer">Tecnologias</Link>
+            <Link href='#projects' className="font-normal text-[30px] cursor-pointer">Projectos</Link>
+            <Link href='#contact' className="font-normal text-[30px] cursor-pointer">Contacto</Link>
           </div>
         </div>
 
@@ -51,18 +52,23 @@ export default function Page() {
             width={400}
             height={350}
             priority
-            />
+          />
         </div>
+
         <Social />
       </header>
 
       <main className="flex flex-col items-center justify-center gap-[100px]">
-        <About />
-        <Techs />
+          <About />
+          <Techs />
+        <Link href='#' id='projects'>
+        </Link>
         <Projects />
         <Contact />
-        <Footer />
       </main>
+
+      <Footer />
+      
     </div>
   )
 }
