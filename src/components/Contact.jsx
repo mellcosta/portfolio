@@ -24,7 +24,7 @@ export default function Contact() {
                 <form action="https://formsubmit.co/m3licosta@gmail.com" method="POST"
                     className="form flex flex-col items-start justify-center gap-[30px] px-[50px]">
                     <input type="hidden" name="_autoresponse" value="Agradeço por me contactar."/>
-                    <input type="hidden" name="_next" value="http://localhost:3000/"/>
+                    <input type="hidden" name="_next" value="https://portfolio-mellcosta.vercel.app/"/>
                     <input type="hidden" name="_captcha" value="false"/>
                     <div>
                         <label>Nome</label>
