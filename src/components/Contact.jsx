@@ -10,18 +10,19 @@ export default function Contact() {
             <Link href='#' id='contact'>
                 <Title title="Entre em Contacto"/>
             </Link>
-            <div className="flex gap-10 items-start justify-center px-[100px]">
+            <div className="contact-content flex gap-10 items-start justify-center px-[100px]">
                 <div className="p-[50px]">
                     <p>Entre em contacto para discutir projectos, parcerias e oportunidades futuras.</p>
                     <Image
                         src="/chat.svg"
                         alt="Chat"
+                        id="contact-image"
                         width={390}
                         height={330}
                     />
                 </div>
                 <form action="https://formsubmit.co/m3licosta@gmail.com" method="POST"
-                    className="flex flex-col items-start justify-center gap-[30px] px-[50px]">
+                    className="form flex flex-col items-start justify-center gap-[30px] px-[50px]">
                     <input type="hidden" name="_autoresponse" value="Agradeço por me contactar."/>
                     <input type="hidden" name="_next" value="http://localhost:3000/"/>
                     <input type="hidden" name="_captcha" value="false"/>

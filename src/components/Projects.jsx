@@ -11,7 +11,7 @@ export default function Projects() {
             <Link href='#' id='projects'>
                 <Title title="Projectos"/>
             </Link>
-            <div className="flex flex-wrap items-center justify-center gap-[50px]">
+            <div className="projects-content flex flex-wrap items-center justify-center gap-[50px] px-5">
                 <Cards image="/countdown.png" legend="Countdown" 
                     url="https://mellcosta.github.io/desafiosRocketseat/intermediario/countdown/countdown.html"
                 />

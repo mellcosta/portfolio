@@ -13,3 +13,94 @@ body {
   background: #000;
   font-size: 30px;
 }
+
+@media (max-width: 800px) {
+  body {
+    font-size: 18px;
+  }
+  .header {
+    gap: 50px;
+  }
+
+  #logo {
+    width: 100px;
+  }
+  #pc, .menu-nav {
+    display:none
+  }
+
+  .banner-text {
+    font-size:25px;
+  }
+  .banner-title {
+    font-size:45px;
+  }
+  #line {
+    width:100px;
+  }
+  .title {
+    margin-bottom: 10px;
+  }
+  .title-text {
+    font-size:30px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    width:90%;
+    padding:10px;
+  }
+  #pic {
+    width: 200px;
+  }
+
+  .techs {
+    justify-content: center;
+  }
+  .techs-content {
+    width: 50%;
+    gap:50px;
+    justify-content: center;
+  }
+  .techs-icon {
+    width: 50px;
+  }
+
+  .projects-content {
+    flex-direction:column;
+  }
+  .cards {
+    width:70%;
+    height:50%;
+  }
+  #card-image {
+    height: 180px;
+  }
+
+  #contact-image {
+    display:none;
+  }
+  .contact-content {
+    flex-direction: column;
+    padding: 0;
+    align-items:center;
+  }
+  .form > div {
+    display:flex;
+    flex-direction: column;
+  }
+  .form input {
+    width:300px;
+  }
+  .form textarea {
+    width:300px;
+  }
+
+  .footer {
+    flex-direction: column;
+    height: 500px;
+    padding:20px;
+    justify-content: start;
+    align-items: center;
+  }
+}

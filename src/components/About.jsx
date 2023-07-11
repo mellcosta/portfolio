@@ -10,10 +10,11 @@ export default function About() {
             <Link href="#" id="about">
                 <Title title="Sobre Mim"/>
             </Link>
-            <div className="flex items-center justify-center gap-[50px] px-[50px]">
+            <div className="about-content flex items-center justify-center gap-[50px] px-[50px]">
                 <Image
                     src="/pic.svg"
                     alt="Profile pic"
+                    id="pic"
                     width={470}
                     height={470}
                 />
