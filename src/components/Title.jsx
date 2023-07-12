@@ -5,7 +5,7 @@ const Title = (props) => {
         <div className="title flex flex-col items-center justify-center gap-0 mb-[100px]">
             <h2 className="title-text text-[60px] font-semibold">{props.title}</h2>
             <Image
-                src="/line.svg"
+                src="/img/me/line.svg"
                 alt="Line"
                 id='line'
                 width={205}
