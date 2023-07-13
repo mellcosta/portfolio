@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import Title from "../components/Title"
+import Title from "../components/Title";
 
 export default function Contact() {
     return(
         <div>
+
             <Link href='#' id='contact'>
                 <Title title="Entre em Contacto"/>
             </Link>
