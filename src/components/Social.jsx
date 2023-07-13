@@ -6,7 +6,7 @@ export default function Social() {
         <div className="flex items-start justify-start gap-9">
           <a href="https://github.com/mellcosta" target="_blank" rel="noopener noreferrer">
             <Image
-              src="/github.png"
+              src="/img/icons/github.png"
               alt="Github"
               width={32}
               height={32}
@@ -15,7 +15,7 @@ export default function Social() {
           </a>
           <a href="https://www.linkedin.com/in/melissa-costa-71300a209/" target="_blank" rel="noopener noreferrer">
             <Image
-              src="/linkedin.png"
+              src="/img/icons/linkedin.png"
               alt="Linkedin"
               width={32}
               height={32}
@@ -24,7 +24,7 @@ export default function Social() {
           </a>
           <a href="https://www.instagram.com/m3licosta/" target="_blank" rel="noopener noreferrer">
             <Image
-              src="/instagram.png"
+              src="/img/icons/instagram.png"
               alt="Instagram"
               width={32}
               height={32}

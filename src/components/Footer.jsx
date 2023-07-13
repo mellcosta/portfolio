@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="footer bg-gray-900 flex gap-[50px] items-end justify-between h-[130px] w-[100%] py-[30px] px-[100px]">
             <a href="#" className='cursor-pointer'>
                 <Image
-                src="/mel.svg"
+                src="/img/me/mel.svg"
                 alt="Mel Logo"
                 id='logo'
                 width={200}
@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="flex flex-col ">
             <div className="flex">
                 <Image
-                    src="/tel.svg"
+                    src="/img/icons/tel.svg"
                     alt="Telefone"
                     width={30}
                     height={30}
@@ -29,7 +29,7 @@ export default function Footer() {
             </div> 
             <div className="flex">
                 <Image
-                    src="/email.svg"
+                    src="/img/icons/email.svg"
                     alt="Email"
                     width={30}
                     height={30}
