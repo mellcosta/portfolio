@@ -86,7 +86,6 @@ export default function Page() {
       <main className="flex flex-col items-center justify-center gap-[90px]">
         <About />
         <Techs />
-        <Link href="#" id="projects"></Link>
         <Projects />
         <Contact />
       </main>

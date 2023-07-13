@@ -14,7 +14,7 @@ export default function Contact() {
                 <div className="p-[50px]">
                     <p>Entre em contacto para discutir projectos, parcerias e oportunidades futuras.</p>
                     <Image
-                        src="/chat.svg"
+                        src="/img/icons/chat.svg"
                         alt="Chat"
                         id="contact-image"
                         width={390}
