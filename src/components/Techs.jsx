@@ -6,7 +6,7 @@ import Title from "./Title";
 export default function Techs() {
   return (
     <div className="techs flex flex-col items-center justify-start gap-[50px]">
-      <Link href="#techs" id="techs">
+      <Link href="#" id="techs">
         <Title title="Tecnologias" />
       </Link>
       <div className="techs-content flex items-center justify-center gap-[100px] flex-wrap w-[820px]">

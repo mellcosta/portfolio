@@ -12,6 +12,11 @@ body {
   color: var(--gray-100);
   background: #000;
   font-size: 30px;
+  scroll-behavior: smooth;
+}
+html {
+  scroll-behavior: smooth;
+
 }
 
 @media (max-width: 800px) {

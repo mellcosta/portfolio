@@ -6,7 +6,7 @@ import Title from "./Title";
 export default function About() {
   return (
     <div className="flex flex-col items-center justify-start gap-[50px]">
-      <Link href="#about" id="about">
+      <Link href="#" id="about">
         <Title title="Sobre Mim" />
       </Link>
       <div className="about-content flex items-center justify-center gap-[50px] px-[50px]">

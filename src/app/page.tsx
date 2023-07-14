@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import Nav from "../components/Nav"
+
 import Social from "../components/Social";
 import About from "../components/About";
 import Techs from "../components/Techs";
@@ -10,7 +12,7 @@ import Footer from "../components/Footer";
 
 export default function Page() {
   return (
-    <div className="flex h-screen flex-col items-center justify-between py-8 gap-[100px]">
+    <div className="scroll-container flex h-screen flex-col items-center justify-between py-8 gap-[100px]">
       <header className="header flex flex-col intems-center justify-start gap-[100px] px-10">
         <div className="flex items-center justify-between">
           <a href="#" className="cursor-pointer">
@@ -23,7 +25,7 @@ export default function Page() {
               priority
             />
           </a>
-          <div className=" menu-nav flex justify-center items-center gap-[30px]">
+          <nav className=" menu-nav flex justify-center items-center gap-[30px]">
             <Link
               href="#about"
               className="font-normal text-[30px] cursor-pointer"
@@ -48,7 +50,7 @@ export default function Page() {
             >
               Contacto
             </Link>
-          </div>
+          </nav>
         </div>
 
         <div className="flex gap-5">
@@ -83,7 +85,8 @@ export default function Page() {
         <Social />
       </header>
 
-      <main className="flex flex-col items-center justify-center gap-[90px]">
+      <main className=" flex flex-col items-center justify-center gap-[90px]">
+        <Nav/>
         <About />
         <Techs />
         <Projects />
