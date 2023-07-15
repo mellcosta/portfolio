@@ -8,6 +8,7 @@ export default function About() {
     <div id="about" className="flex flex-col items-center justify-start gap-[50px]">
       <Link href="#" >
         <Title title="Sobre Mim" />
+        
       </Link>
       <div className="about-content flex items-center justify-center gap-[50px] px-[50px]">
         <Image
