@@ -5,9 +5,9 @@ import Title from "../components/Title";
 
 export default function Contact() {
     return(
-        <div>
+        <div id='contact'>
 
-            <Link href='#' id='contact'>
+            <Link href='#' >
                 <Title title="Entre em Contacto"/>
             </Link>
             <div className="contact-content flex gap-10 items-start justify-center px-[100px]">

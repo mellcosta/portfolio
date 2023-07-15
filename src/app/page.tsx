@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import Nav from "../components/Nav"
-
 import Social from "../components/Social";
 import About from "../components/About";
 import Techs from "../components/Techs";
@@ -86,7 +84,6 @@ export default function Page() {
       </header>
 
       <main className=" flex flex-col items-center justify-center gap-[90px]">
-        <Nav/>
         <About />
         <Techs />
         <Projects />

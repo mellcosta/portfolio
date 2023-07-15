@@ -6,8 +6,8 @@ import Cards from "../components/Cards";
 
 export default function Projects() {
   return (
-    <div>
-      <Link href="#" id="projects">
+    <div id="projects">
+      <Link href="#" >
         <Title title="Projectos" />
       </Link>
       <div className="projects-content flex flex-wrap items-center justify-center gap-[50px] px-5">
