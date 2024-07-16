@@ -1,6 +1,5 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Link as ScrollLink } from "react-scroll";
 
 import Social from "../components/Social";
 
@@ -19,30 +18,30 @@ export default function Header() {
             />
           </Link>
           <nav className=" menu-nav flex justify-center items-center gap-[30px]">
-            <ScrollLink
-              to="about"
+            <Link
+              href="#about"
               className="font-normal text-[30px] cursor-pointer"
             >
               Sobre
-            </ScrollLink>
-            <ScrollLink
-              to="techs"
+            </Link>
+            <Link
+              href="#techs"
               className="font-normal text-[30px] cursor-pointer"
             >
               Tecnologias
-            </ScrollLink>
-            <ScrollLink
-              to="projects"
+            </Link>
+            <Link
+              href="#projects"
               className="font-normal text-[30px] cursor-pointer"
             >
               Projectos
-            </ScrollLink>
-            <ScrollLink
-              to="contact"
+            </Link>
+            <Link
+              href="#contact"
               className="font-normal text-[30px] cursor-pointer"
             >
               Contacto
-            </ScrollLink>
+            </Link>
           </nav>
         </div>
 

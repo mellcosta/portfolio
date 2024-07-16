@@ -4,7 +4,7 @@ import Social from '../components/Social'
 
 export default function Footer() {
     return(
-        <div className="footer bg-gray-900 flex gap-[50px] items-end justify-between h-[130px] w-[100%] py-[30px] px-[100px]">
+        <div className="footer bg-gray-900 flex gap-[50px] items-end justify-between h-[130px] py-[30px] px-[100px]">
             <a href="#" className='cursor-pointer'>
                 <Image
                 src="/img/me/mel.svg"

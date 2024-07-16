@@ -10,7 +10,7 @@ import Footer from "../components/Footer";
 
 export default function Page() {
   return (
-    <div className="scroll-container flex h-screen flex-col items-center justify-between py-8 gap-[100px]">
+    <div className=" scroll-container flex h-screen flex-col items-center justify-between py-8 gap-[100px]">
       
       <header>
         <Header />
@@ -23,7 +23,7 @@ export default function Page() {
         <Contact />
       </main>
 
-      <footer>
+      <footer className="bg-white border-spacing-1 border-red-500 w-full">
         <Footer />
       </footer>
 
